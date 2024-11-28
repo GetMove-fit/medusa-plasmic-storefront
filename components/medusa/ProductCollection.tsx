@@ -53,7 +53,7 @@ export function ProductCollection(props: ProductCollectionProps) {
     return React.isValidElement(loadingMessage) ? loadingMessage : null;
   }
 
-  if (![error, categoriesError].includes(undefined) || !data.count) {
+  if (![error, categoriesError].includes(undefined) || !data?.count) {
     return React.isValidElement(emptyMessage) ? emptyMessage : null;
   }
 
