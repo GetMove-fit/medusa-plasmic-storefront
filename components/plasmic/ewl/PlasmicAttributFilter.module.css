@@ -1,0 +1,185 @@
+.root {
+  width: 338px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+.button {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(45, 45, 45, 1);
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+.freeBox__l91H9 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox__l91H9 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 40px);
+  width: calc(100% + 40px);
+}
+.freeBox__l91H9 > :global(.__wab_flex-container) > *,
+.freeBox__l91H9 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__l91H9 > :global(.__wab_flex-container) > picture > img,
+.freeBox__l91H9
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 40px;
+}
+.freeBoxfarbe__l91H9Z75Hx > :global(.__wab_flex-container) {
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.freeBoxfarbe__l91H9Z75Hx > :global(.__wab_flex-container) > *,
+.freeBoxfarbe__l91H9Z75Hx
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.freeBoxfarbe__l91H9Z75Hx > :global(.__wab_flex-container) > picture > img,
+.freeBoxfarbe__l91H9Z75Hx
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+  margin-top: 0px;
+}
+.text__m85XU {
+  display: block;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.0015em;
+  line-height: 24px;
+  color: rgba(45, 45, 45, 1);
+  position: relative;
+}
+.variantKarte__wtyRk:global(.__wab_instance) {
+  max-width: 100%;
+  flex-shrink: 0;
+  display: none;
+}
+.variantKartefarbe__wtyRkz75Hx:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.text__irEq0 {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.0125em;
+  line-height: 20px;
+  color: rgba(45, 45, 45, 1);
+  position: relative;
+}
+.svg {
+  object-fit: cover;
+  color: #2e2e2e;
+  width: 13.414px;
+  height: 7.293px;
+  display: block;
+  position: relative;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(90deg);
+  flex-shrink: 0;
+}
+.svgoffen {
+  transform: none;
+}
+.freeBox___8PCdc {
+  height: auto;
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  display: none;
+  padding: 16px;
+}
+.freeBox___8PCdc > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.freeBox___8PCdc > :global(.__wab_flex-container) > *,
+.freeBox___8PCdc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___8PCdc > :global(.__wab_flex-container) > picture > img,
+.freeBox___8PCdc
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.freeBoxoffen___8PCdcTWk88 {
+  display: flex;
+}
+.graphQlFetcher:global(.__wab_instance) {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 0;
+  display: none;
+}
+.graphQlFetcherfarbe:global(.__wab_instance) {
+  display: flex;
+}
+.content24 {
+  width: auto;
+  height: auto;
+  position: relative;
+  flex-direction: row;
+  display: none;
+}
+.content24 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.content24 > :global(.__wab_flex-container) > *,
+.content24 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.content24 > :global(.__wab_flex-container) > picture > img,
+.content24
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+}
+.content24farbe {
+  display: flex;
+}
+.variantKarte__tsBmu:global(.__wab_instance) {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.variantKartefarbe__tsBmuz75Hx:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.filterZeile:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.filterZeileoffen_farbe:global(.__wab_instance) {
+  display: none;
+}

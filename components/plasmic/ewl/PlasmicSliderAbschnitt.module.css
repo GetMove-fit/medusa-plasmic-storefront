@@ -1,0 +1,210 @@
+.root {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  margin-top: calc(0px - 40px);
+  height: calc(100% + 40px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 40px;
+}
+.freeBox__uKll6 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 0;
+}
+.h2 {
+  display: block;
+  font-size: 34px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.0025em;
+  line-height: 40px;
+  color: rgba(45, 45, 45, 1);
+  position: relative;
+}
+.freeBox___1NcGk {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox___1NcGk > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox___1NcGk > :global(.__wab_flex-container) > *,
+.freeBox___1NcGk > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___1NcGk > :global(.__wab_flex-container) > picture > img,
+.freeBox___1NcGk
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.button__ubBj {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  max-width: 100%;
+  cursor: pointer;
+  flex-shrink: 0;
+  border: 1px solid #2e2e2e;
+}
+.svg__wcTY {
+  object-fit: cover;
+  max-width: 100%;
+  color: #2e2e2e;
+  width: 18px;
+  height: 10px;
+  display: block;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(90deg);
+  flex-shrink: 0;
+}
+.button___4OOw {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  max-width: 100%;
+  background: var(--token-tuiJWDByDnLD);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.svg__nds9 {
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffffff;
+  width: 18px;
+  height: 10px;
+  display: block;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg);
+  flex-shrink: 0;
+}
+.graphQlFetcher:global(.__wab_instance) {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 0;
+}
+.kategorienSlider:global(.__wab_instance) {
+  object-fit: cover;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+.freeBox___4Fvpm {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox__q0Wwy {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 380px;
+  top: auto;
+  left: auto;
+  grid-template-rows: auto auto;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-auto-rows: auto;
+  grid-auto-columns: 1fr;
+  flex-shrink: 0;
+}
+.kategorieKarte__abcZb:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.kategorieKarte___77Xf8:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.kategorieKarte___6HJNi:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.kategorieKarte__jkoQ2:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.kategorieKarte__i0Mgo:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.freeBox__cauVz {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+.img___4SxdR {
+  object-fit: cover;
+  max-width: 100%;
+}
+.img___4SxdR > picture > img {
+  object-fit: cover;
+}
+.freeBox___7NA87 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+.img__okfWn {
+  object-fit: cover;
+  max-width: 100%;
+}
+.img__okfWn > picture > img {
+  object-fit: cover;
+}

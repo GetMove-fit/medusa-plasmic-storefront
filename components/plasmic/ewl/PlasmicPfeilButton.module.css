@@ -1,0 +1,42 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  max-width: 100%;
+  cursor: pointer;
+  background: var(--token-tuiJWDByDnLD);
+  position: relative;
+  border: 1px solid var(--token-tuiJWDByDnLD);
+}
+.rootlight {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+.root:disabled {
+  background: none;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffffff;
+  width: 18px;
+  height: 10px;
+  display: block;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg);
+  flex-shrink: 0;
+}
+.svgzuruck {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(90deg);
+}
+.svglight {
+  color: var(--token-tuiJWDByDnLD);
+}
+.root:disabled .svg {
+  color: var(--token-tuiJWDByDnLD);
+}
+.rootzuruck_light:disabled .svgzuruck_light {
+  color: #ffffff;
+}

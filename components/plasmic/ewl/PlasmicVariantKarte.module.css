@@ -1,0 +1,54 @@
+.tab {
+  background: linear-gradient(#0000000a, #0000000a), rgba(255, 255, 255, 1);
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  overflow: hidden;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+.tab > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.tab > :global(.__wab_flex-container) > *,
+.tab > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.tab > :global(.__wab_flex-container) > picture > img,
+.tab > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
+.tabselected {
+  background: linear-gradient(#0000000f, #0000000f), rgba(255, 255, 255, 1);
+}
+.tabfarbe {
+  width: 24px;
+  height: 24px;
+  padding: 0px;
+}
+.tabselected_farbe {
+  border: 2px solid var(--token-tuiJWDByDnLD);
+}
+.text {
+  display: block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  line-height: 24px;
+  color: #a1a1a1;
+  position: relative;
+}
+.textselected {
+  color: var(--token-tuiJWDByDnLD);
+}
+.textfarbe {
+  display: none;
+}
+.tab:hover .text {
+  color: var(--token-tuiJWDByDnLD);
+}

@@ -6,8 +6,8 @@ import { CartProvider, cartProviderMeta } from "@/components/medusa/CartProvider
 import { ProductTextField, productTextFieldMeta } from "@/components/medusa/ProductTextField";
 import { ProductMedia, productMediaMeta } from "@/components/medusa/ProductMedia";
 import { registerComponent, registerGlobalContext } from "@plasmicapp/react-web/lib/host";
-import RangeSlider, { rangeSliderMeta } from "@/components/RangeSlider";
-import ProductsProvider, { productsProviderMeta } from "@/components/ProductsProvider";
+import RangeSlider, { rangeSliderMeta } from "@/lib/code-components/RangeSlider";
+import ProductsProvider, { productsProviderMeta } from "@/lib/code-components/ProductsProvider";
 
 export function registerAll() {
   registerGlobalContext(MedusaProvider, medusaProviderMeta);
